@@ -39,7 +39,7 @@ paginate = 10
 		facebook = ""
 		googleplus = ""
 		flickr = ""
-		linkedin = "ljeanmarius"
+		linkedin = "https://www.linkedin.com/in/ljeanmarius"
 
 		copyright = [
 			"&copy;2017 Laurent JM"
