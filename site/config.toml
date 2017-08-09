@@ -1,11 +1,11 @@
 baseurl = "/"
 
 languageCode = "en-us"
-title = "LJM Blog"
+title = "LJM"
 theme = "hugo-strata-theme"
 disqusShortname = "spf13"
 # Enable Google Analytics by inserting your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-28519327-1"
 # Define how many posts should appear on a site
 paginate = 10
 
