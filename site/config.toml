@@ -1,4 +1,5 @@
 baseurl = "/"
+
 languageCode = "en-us"
 title = "LJM Blog"
 theme = "hugo-strata-theme"
@@ -58,40 +59,53 @@ paginate = 10
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/pmp.jpg"
+			thumb = "thumbs/pmp.jpg"
+			title = "PMP Certified"
+			description = "PMP Re-Certified"
+
+                [[params.portfolio.gallery]]
+                        image = "fulls/itilf.jpg"
+                        thumb = "thumbs/itilf.jpg"
+                        title = "ITIL Foundation"
+                        description = "ITIL Foundation"
+
+                [[params.portfolio.gallery]]
+                        image = "fulls/csm.jpg"
+                        thumb = "thumbs/csm.jpg"
+                        title = "Certified Scrum Master"
+                        description = "Certified Scrum Master"
+
 
 		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/sixsigma.jpg"
+			thumb = "thumbs/sixsigma.jpg"
+			title = "Six Sigma Green Belt Professional"
+			description = "Six Sigma Green Belt Professional"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "fulls/dma.png"
+			thumb = "thumbs/dma.png"
+			title = "Certified Digital Marketing Associate"
+			description = "Certified Digital Marketing Associate"
+	
+                [[params.portfolio.gallery]]
+                        image = "fulls/mra.png"
+                        thumb = "thumbs/mra.png"
+                        title = "Certified Marketing Research Associate"
+                        description = "Certified Marketing Research Associate"
 
-		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+                [[params.portfolio.gallery]]
+                        image = "fulls/scms.png"
+                        thumb = "thumbs/scms.png"
+                        title = "Certified Marketing Strategy Associate"
+                        description = "Certified Marketing Strategy Associate"
 
-		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+                [[params.portfolio.gallery]]
+                        image = "fulls/sfc.png"
+                        thumb = "thumbs/sfc.png"
+                        title = "Scrum Fundamentals Certified Credentials"
+                        description = "Scrum Fundamentals Certified Credentials"
 
 	[params.recentposts]
 		hide  = true
