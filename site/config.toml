@@ -59,8 +59,8 @@ paginate = 10
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			image = "fulls/pmp.jpg"
-			thumb = "thumbs/pmp.jpg"
+			image = "fulls/pmp-new.jpg"
+			thumb = "thumbs/pmp-new.jpg"
 			title = "PMP Certified"
 			description = "PMP Re-Certified"
 
@@ -88,7 +88,7 @@ paginate = 10
 			thumb = "thumbs/dma.png"
 			title = "Certified Digital Marketing Associate"
 			description = "Certified Digital Marketing Associate"
-	
+
                 [[params.portfolio.gallery]]
                         image = "fulls/mra.png"
                         thumb = "thumbs/mra.png"
