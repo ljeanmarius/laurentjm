@@ -1,11 +1,28 @@
+# Plain static site: no build step. Netlify publishes public/ as-is.
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "echo No build step"
+  publish = "public"
 
-# Change the version of Hugo you want to use on Netlify
-# by changing this environment variable.
-[build.environment]
-  HUGO_VERSION = "v0.25.1"
+# Old Hugo URLs
+[[redirects]]
+  from = "/about/*"
+  to = "/"
+  status = 301
 
-[context.deploy-preview]
-  command = "npm run build-preview"
+[[redirects]]
+  from = "/post/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/index.xml"
+  to = "/"
+  status = 301
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; script-src 'none'; base-uri 'self'; form-action 'none'"
